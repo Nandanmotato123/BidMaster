@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 // Get the API URL from environment variables, or use default localhost URL
-let API_URL = 'https://bidmaster-backend.onrender.com'
+let API_URL = 'https://bidmaster-backend-ierg.onrender.com'
 if (import.meta.env && import.meta.env.VITE_API_URL) {
   API_URL = import.meta.env.VITE_API_URL
 }
