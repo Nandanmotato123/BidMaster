@@ -1,7 +1,7 @@
 import { io } from 'socket.io-client'
 
 // Get the socket URL from environment variables, or use default localhost URL
-let SOCKET_URL = 'https://bidmaster-backend.onrender.com'
+let SOCKET_URL = 'https://bidmaster-backend-ierg.onrender.com'
 if (import.meta.env && import.meta.env.VITE_SOCKET_URL) {
   SOCKET_URL = import.meta.env.VITE_SOCKET_URL
 }
